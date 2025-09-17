@@ -1,0 +1,48 @@
+body {
+  font-family: 'Cairo', sans-serif;
+  background-color: #f4f6f9;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+.plans-container {
+  max-width: 1000px;
+  margin: 60px auto;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: #6a1b9a;
+  margin-bottom: 30px;
+  font-size: 26px;
+}
+
+.plan-card {
+  background: #ffffff;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.plan-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.plan-info {
+  margin-bottom: 15px;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #333;
+}
+
+.plan-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}

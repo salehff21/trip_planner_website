@@ -1,0 +1,53 @@
+
+    .form-container {
+      max-width: 600px;
+      margin: 60px auto;
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #6a1b9a;
+      margin-bottom: 25px;
+      text-align: center;
+    }
+    label {
+      font-weight: bold;
+      margin-bottom: 5px;
+      display: block;
+      color: #333;
+    }
+    input[type="text"],
+    input[type="number"] {
+      width: 100%;
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      margin-bottom: 20px;
+      font-size: 16px;
+    }
+    .checkbox-group {
+      margin-bottom: 20px;
+    }
+    .checkbox-group label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: normal;
+    }
+    .submit-btn {
+      background-color: #6a1b9a;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+      display: block;
+      width: 100%;
+    }
+    .submit-btn:hover {
+      background-color: #4a148c;
+    }
+  

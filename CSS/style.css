@@ -1,0 +1,154 @@
+ @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Cairo', sans-serif;
+  background-color: #eee9f7; /* 💡 لون خلفية فاتح هادئ */
+  color: #2e2e3a;
+  direction: rtl;
+}
+
+.feature span i {
+  display: block;
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+header, footer {
+  background-color: #ffea5c; /* 💡 بنفسجي رمادي فاتح */
+  padding: 20px 40px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.step span i {
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+header {
+  display: flex;
+  direction: ltr;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  margin-left: 20px;
+  color: #6a1b9a; /* بنفسجي متوسط */
+  font-weight: 500;
+}
+nav a:hover {
+  color: #8e24aa;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #6a1b9a;
+}
+
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+              url('../image/City.jpg') center/cover no-repeat;
+  color: #ffffff;
+  text-align: center;
+  padding: 200px 20px;
+}
+
+.hero h1 {
+  font-size: 38px;
+  font-weight: bold;
+  color: #ffe082; /* ذهبي فاتح */
+}
+
+.hero p {
+  font-size: 18px;
+  color: #f0f0f0;
+}
+
+.hero a {
+  background-color: #26a69a;
+  color: white;
+  padding: 14px 32px;
+  display: inline-block;
+  margin-top: 25px;
+  font-size: 18px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.hero a:hover {
+  background-color: #00897b;
+}
+
+.section {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f8f6ff; /* 💡 بنفسجي فاتح جداً */
+}
+
+.section:nth-child(even) {
+  background-color: #ede7f6; /* 💡 بنفسجي أفتح */
+}
+
+h2 {
+  font-size: 26px;
+  margin-bottom: 30px;
+  color: #6a1b9a;
+}
+
+.features, .how-it-works {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.feature, .step {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 16px;
+  width: 240px;
+  color: #444;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+.feature:hover, .step:hover {
+  transform: translateY(-5px);
+}
+.feature span, .step span {
+  font-size: 36px;
+  display: block;
+  margin-bottom: 10px;
+  color: #6a1b9a;
+}
+
+.cta a {
+  background-color: #6a1b9a;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 8px;
+  font-weight: 500;
+}
+.cta a:hover {
+  background-color: #4a148c;
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+  padding-top: 30px;
+}
+
+footer a {
+  color: #6a1b9a;
+  margin: 0 8px;
+}
